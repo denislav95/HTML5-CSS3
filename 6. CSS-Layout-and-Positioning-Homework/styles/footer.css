@@ -1,0 +1,82 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+footer {
+    padding:50px 20px 10px 20px;  
+    background-color: #234465;
+    color:white;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    width:240px;
+    height: 250px;
+}
+
+ul li {
+    list-style: none;
+    display: block;
+}
+
+ul li a {
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color:white;
+}
+
+section#apply a {
+    display: block;
+    width:150px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border:2px solid #FF9900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    color:white;
+}
+
+section#apply a:hover {
+    background:#FFCC00; color:#FF3300;
+}
+
+section > header > h4 {
+    margin-bottom: 5px;
+    color:#FF9900;
+}
+
+section#copyright {
+    margin-right: 15px;
+}
+
+section#copyright a  {
+    display: inline-block;
+    width:45px;
+    height: 45px;
+    background-color: #0099CC;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    border-radius: 10px;
+    margin-top:15px;
+}
+    
+#tweet {
+    background-image: url('https://pmcdeadline2.files.wordpress.com/2014/06/twitter-logo.png?w=970');
+}
+
+#face {
+    background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTa77daRbKZG-Y0yufPYVQCFJi2FLLqam9CrjbOek7ujKdV0K5J4g');
+}
+    
+#google {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/04/Google_Plus_logo.png');
+}

@@ -1,0 +1,125 @@
+#wrapper{
+	font-family: Tahoma, sans-serif;
+	background-color: darkblue;
+	color: white;
+	width: 850px;
+}
+
+section{
+	display: -webkit-inline-box;
+}
+
+#wrapper header{
+	text-align: center;
+}
+
+#wrapper span{
+	position: relative;
+	bottom: 90px;
+	left: 197px;
+}
+
+#wrapper h1{
+	font-size: 80px;
+}
+
+#wrapper h3{
+	margin-top: -65px;
+}
+
+#wrapper h5{
+	margin-top: -10px;
+}
+
+.left fieldset{
+	width: 320px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+.left legend{
+	text-align: center;
+}
+
+.left input{
+	display: inline-block;
+	width: 140px;
+	height: 20px;
+	margin: 5px 0px 5px 10px;
+	border-radius: 5px;	
+}
+
+.birth label{
+	display: block;
+	margin-left: 10px;
+}
+
+.birth input{
+	width: 200px;
+}
+
+.radiobox input{
+	width: 15px;
+	margin: 10px 0px 20px 10px;
+}
+
+.radiobox label{
+	margin-right: 20px;
+}
+
+.left-btn{
+	width: 340px;
+	border-radius: 5px;
+	height: 40px;
+	margin: 10px 0px 10px 25px;
+	color: darkblue;
+}
+
+.right fieldset{
+	width: 420px;
+	border-radius: 5px;
+}
+
+.right legend{
+	text-align: center;
+}
+
+.right select{
+	width: 100px;
+	margin: 0px 10px 10px 0px;
+	border-radius: 5px;
+	height: 25px;
+}
+
+.right input{
+	width: 120px;
+	margin: 0px 10px 10px 0px;
+	border-radius: 5px;
+	height: 20px;
+}
+
+.right .info{
+	width: 60px;
+}
+
+.right .apart-info label{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.right .text label{
+	display: block;
+}
+
+.right .text textarea{
+	width: 380px;
+	height: 55px;
+}
+
+.right .right-btn{
+	width: 430px;
+	border-radius: 5px;
+	height: 40px;
+	margin: 10px 0px 10px 10px;
+	color: darkblue;
+}

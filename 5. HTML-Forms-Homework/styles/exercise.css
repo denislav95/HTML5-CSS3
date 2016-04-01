@@ -1,0 +1,73 @@
+#wrapper{
+	font-family: Tahoma, sans-serif;
+	width: 400px;
+	background-color: #FFA500;
+	padding: 10px 0 10px 0;	
+}
+form{
+	width: 330px;
+	background-color: #89B426;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+span{
+	color: red;
+}
+label{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 115px;
+}
+#inputs input{
+	width: 200px;
+	height: 20px;
+	border-color: #FFA500;
+	border-radius: 10px;
+	text-indent: 4px;
+	margin: 5px auto;
+	display: block;
+}
+#options label{
+	position: absolute;
+	margin-left: 60px;
+	margin-bottom: 10px;
+}
+select{
+	position: relative;
+	margin: 20px 0px 0px 40px;
+	background-color: #FFA500;
+	width: 100px;
+	height: 25px;
+	border-radius: 10px;
+}
+hr{
+	width: 80%;
+}
+#checkbox input{
+	position: relative;
+	width: 85px;
+	margin-bottom: 10px;
+}
+#checkbox span{
+	color: white;
+	margin-left: -30px;
+}
+#radiobox input{
+	position: relative;
+	width: 90px;
+	margin-bottom: 10px;
+}
+#radiobox span{
+	color: white;
+}
+button{
+	position: relative;
+	background-color: #FFA500;
+	border-radius: 10px;
+	font-weight: bold;
+	width: 150px;
+	height: 35px;
+	margin-bottom: 8px;
+	margin-left: 85px;
+}

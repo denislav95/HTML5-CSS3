@@ -1,0 +1,56 @@
+body{
+	font-family: Arial, sans-serif;
+	max-width: 580px;
+}
+
+h1{
+	color: darkblue;
+}
+
+.bold{
+	font-weight: bold;
+	color: darkblue;
+}
+
+span{
+	float: left;
+}
+
+button{
+	border: none;
+	background-color: white;
+}
+
+img{
+	width: 190px;
+	height: 120px;
+}
+
+.price-label{
+	float: right;
+	background-color: darkblue;
+	color: white;
+	border-radius: 10px 0px 0px 0px;
+	height: 25px;
+	width: 90px;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.center{
+	
+	margin-left: 74px;
+}
+
+input{
+	width: 200px;
+}
+
+.min-label{
+	float: left;
+}
+
+.max-label{
+	float: right;
+}

@@ -1,0 +1,131 @@
+body{
+	background-image: url('../images/colorful_dots_on_black.jpg');
+	background-repeat: repeat;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+body > header:nth-child(1){
+	color: yellow;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 2em;
+	height: 50px;
+	font-weight: bold;
+	background: linear-gradient(to right,#F00, #F00 33.3%, #008000 33.3%, #008000 67.7%, #00F 67.7%), repeat scroll 0% 0% transparent;
+
+}
+nav header{
+	margin-top: 15px;
+	margin-left: 30px;
+	font-size: 25px;
+	text-decoration: underline;
+}
+aside{
+	margin-top: 20px;
+	float: left;
+	width: 250px;
+	height: 250px;
+}
+aside  li{
+	padding: 3px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+aside  a{
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	padding: 5px;
+}
+aside a[href="ColorKitchen.html#webColors"]:hover{
+	background-color: red;
+	border-radius: 5px;
+	color: black;
+}
+aside a[href="ColorKitchen.html#webSafeColors"]:hover{
+	background-color: orange;
+	border-radius: 5px;
+	color: black;
+}
+aside a[href="ColorKitchen.html#RGB"]:hover{
+    background-color:yellow;        
+    border-radius:5px;
+    color:black;
+}
+
+    aside a[href="ColorKitchen.html#RGBA"]:hover{
+    background-color:green;        
+    border-radius:5px;
+    color:black;
+}
+
+    aside a[href="ColorKitchen.html#HSLHSV"]:hover{
+    background-color:blue;        
+    border-radius:5px;
+    color:black;
+}
+
+    aside a[href="ColorKitchen.html#lorem"]:hover{
+    background-color:purple;        
+    border-radius:5px;
+    color:black;
+}
+a:visited{
+	color: gray;
+}
+ul{
+	list-style-image: url('https://github.com/MeLean/CSS-OverView/blob/master/02.Color-Kitchen/bullet.png?raw=true');
+}
+section{
+	margin-top: 20px;
+	margin-left: 20px;
+	display: block;
+	float: left;
+	width: 830px;
+}
+article{
+	margin-bottom: 10px;
+	padding: 10px;
+	font-family: Calibri;
+	font-style: italic;
+}
+article div::first-letter{
+	font-size: 4em;
+	font-family: Tahoma;
+}
+aside, article{
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 20px;
+}
+article header{
+	margin: 5px;
+	padding: 5px;
+	font-style: normal;
+	font-size: 2em;
+	border-radius: 5px;
+}
+#webColors{
+	background-color: red;
+	color: white;
+}
+#webSafeColors{
+	background-color: orange;
+	color: black;
+}
+#RGB{
+	background-color: yellow;
+	color: white;
+}
+#RGBA{
+	background-color: green;
+	color: white;
+}
+#HSLHSV{
+	background-color: blue;
+	color: white;
+}
+#lorem{
+	background-color: purple;
+	color: white;
+}

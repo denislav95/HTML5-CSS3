@@ -1,0 +1,22 @@
+#wrapper{
+	max-width: 960px;
+}
+
+img{
+	width: 400px;
+	height: 150px;
+}
+
+.upload{
+	margin-left: 25px;
+}
+
+.searching{
+	margin-left: 25px;
+}
+
+.searching img{
+	width: 60px;
+	height: 40px;
+	border-radius: 30px;
+}

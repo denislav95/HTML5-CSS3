@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+    <script>
+        window.onload = function(){
+        var container = document.getElementById("Canvas");
+        var ctx = container.getContext('2d');
+        ctx.beginPath();
+        ctx.font = "36px Georgie";
+        ctx.fillText("I love JavaScipt", 5, 60);
+        ctx.fillStyle = 'rgb(241,218,78)';
+        ctx.fillRect(50,100, 150, 150);
+        ctx.font = "100px Oswald";
+        ctx.fillStyle = 'black';
+        ctx.fillText("JS", 100, 235);
+    }
+    </script>
+</head>
+<body>
+	<canvas id="Canvas" width="240" height="260"></canvas>	
+</body>
+</html>

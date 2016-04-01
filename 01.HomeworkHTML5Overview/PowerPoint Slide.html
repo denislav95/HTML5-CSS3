@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	{ margin: 0; padding: 0; }
+	body{
+		background-repeat: no-repeat;
+		background-size: 100%;
+		font-family: Consolas,monaco,monospace;
+	}
+	img{
+		position: absolute;
+		width: 200px;
+		right: 1%
+	}
+	h1{
+		color: #F5D594;				
+	}
+	.box{
+		background-color: rgba(255, 255, 255, 0);
+		border: 1px solid rgba(199, 191, 172, 0.5);
+		margin: 25px 0 25px 25px;
+		width: 90%;
+		color:#f9edc8;
+		background-color: #2E2A2E;
+	}
+	li{ 
+		color: white;
+		font-size: 25px;
+	}
+	p{
+		margin: 2px 0px 5px;
+		text-indent: -35px;
+	}
+	span{
+		color: #F5D594;
+	}
+	</style>
+</head>
+<body background="images\bg1.jpg">
+	<img src="images\bg2.png">
+	<div>
+		<h1>Headings and Paragraphs</h1>
+		<div>
+			<ul type="square">
+				<li>Heading Tags: 
+					<span>&#60;<b>h1</b>&#62;</span>
+					-
+					<span>&#60;<b>h6</b>&#62;</span>
+					<ul class="box">
+						<p>
+							&#60;<b>h1</b>&#62;Heading 1&#60;&#47;<b>h1</b>&#62;
+						</p>
+						<p>
+							&#60;<b>h2</b>&#62;Sub heading 2&#60;&#47;<b>h2</b>&#62;;
+						</p>
+						<p>
+							&#60;<b>h3</b>&#62;Sub heading 3&#60;&#47;<b>h3</b>&#62;
+						</p>
+					</ul>
+				</li>
+				<li>Paragraph Tags:
+					<span>&#60;<b>p</b>&#62;</span>
+					<ul class="box">
+						<p>
+							&#60;<b>p</b>&#62;This is my first paragraph&#60;&#47;<b>p</b>&#62;
+						</p>
+						<p>
+							&#60;<b>p</b>&#62;This is my second paragraph&#60;&#47;<b>p</b>&#62;
+						</p>
+					</ul>
+				</li>
+				<li>Sections:
+					<span>&#60;<b>div</b>&#62;</span>
+					and
+					<span>&#60;<b>span</b>&#62;</span>
+					<ul class="box">
+						<p>
+							&#60;<b>div style="background: skyblue;"
+							&#62;</b>
+							<p>This is a div</p>
+						</p>
+						<p>
+							&#60;&#47;<b>div&#62;</b>;
+						</p>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

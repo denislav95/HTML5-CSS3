@@ -1,0 +1,76 @@
+#wrapper{
+	margin: 0 auto;
+	height: 200px;
+	width: 800px;
+	border-top: 7px dotted yellow;
+	border-left: 7px dashed red;
+	border-bottom: 7px double blue;
+	border-right: 10px solid green; 
+	box-shadow: 20px 15px 10px;
+}
+header{
+	font-family: Tahoma;
+	text-align: center;
+	text-shadow: 10px 10px 10px lightgrey;
+}
+.box{
+	text-align: center;
+	border-radius: 70px;
+	margin: 40px;
+	padding-bottom: 10px;
+	box-shadow: 
+	0 0 0 3px #FF0000,
+	0 0 0 6px #FFFF00,
+	0 0 0 9px #008000,
+	0 0 0 12px #0000FF;
+}
+.box span{
+	font-size: 20px;
+}
+.box input{
+	background-color: orange;
+	margin-top: 10px;
+	text-align: center;
+	height: 20px;
+	font-size: 15px;
+}
+.first{
+	background-color: rgba(169,170,170,0.6);
+	position: relative;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: 3px dashed white;
+	box-shadow: 0px 0px 0px 6px rgba(169,170,170,0.6);
+	top: -90px;
+	left: 570px;
+}
+.second{
+	background-color: rgba(169,170,170,0.6);
+	position: relative;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 3px dashed white;
+	box-shadow: 0px 0px 0px 6px rgba(169,170,170,0.6);
+	top: -150px;
+	left: 640px;
+}
+.third{
+	background-color: rgba(169,170,170,0.6);
+	position: relative;
+	width: 115px;
+	height: 60px;
+	border-radius: 45px;
+	border: 3px dashed white;
+	box-shadow: 0px 0px 0px 6px rgba(169,170,170,0.6);
+	top: -250px;
+	left: 720px;
+}
+.cool{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	vertical-align: bottom;
+}

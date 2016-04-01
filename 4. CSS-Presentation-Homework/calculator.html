@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/calc.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<img src="http://s10.postimg.org/n5yyew8kl/ms_calc.png" alt="calculatorIcon" />
+			<h1>Calculator</h1>
+			<ul id="windowNav" class="inline">
+				<li>
+					<a href="" id="minimize"></a>
+				</li>
+				<li>
+					<a href="" id="maximize"></a>
+				</li>
+				<li>
+					<a href="" id="close"></a>
+				</li>
+			</ul>
+		</header>
+
+		<section id="mainProgram">
+			<nav id="programNav">
+				<ul class="inline">
+					<li>View</li>
+					<li>Edit</li>
+					<li>Help</li>
+				</ul>
+			</nav>
+			<article>
+				<form action="" method="get">
+					<input type="text" name="display" id="display" value="0" class="box-inset"/>
+
+					<div class="binaryRep box-inset">
+						<ul class="inline">
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+						</ul>
+						<ul class="inline binaryIndex">
+							<li>63  </li>
+							<li>47  </li>
+							<li>  32</li>
+						</ul>
+						<ul class="inline">
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+						</ul>
+						<ul class="inline binaryIndex">
+							<li>31  </li>
+							<li>15  </li>
+							<li>   0</li>
+						</ul>
+					</div>
+					<div class="formatChoices">
+						<aside class="numeralSys">
+							<ul>
+								<li>
+									<label>
+									<input type="radio" name="numeralSystem" value="Hex" /> Hex
+									</label>
+								</li>
+								<li>
+									<label>
+									<input type="radio" name="numeralSystem" value="Dec" checked /> Dec
+									</label>
+								</li>
+								<li>
+									<label>
+									<input type="radio" name="numeralSystem" value="Oct" /> Oct
+									</label>
+								</li>
+								<li>
+									<label>
+									<input type="radio" name="numeralSystem" value="Bin" /> Bin
+									</label>
+								</li>
+							</ul>
+						</aside>
+
+						<aside>
+							<ul>
+								<li>
+									<label>
+									<input type="radio" name="bytesAmount" value="Qword" checked /> Qword
+									</label>
+								</li>
+								<li>
+									<label>
+									<input type="radio" name="bytesAmount" value="Dword" /> Dword
+									</label>
+								</li>
+								<li>
+									<label>
+									<input type="radio" name="bytesAmount" value="Word" /> Word
+									</label>
+								</li>
+								<li>
+									<label>
+									<input type="radio" name="bytesAmount" value="Byte" /> Byte
+									</label>
+								</li>
+							</ul>
+						</aside>
+					</div>
+
+					<div class="buttons">
+						<div class="row">
+							<button class="btn btn-mutted" disabled>&nbsp;</button>
+							<button class="btn">Mod</button>
+							<button class="btn btn-mutted" disabled>A</button>
+							<button class="btn btn-mutted">MC</button>
+							<button class="btn btn-mutted">MR</button>
+							<button class="btn btn-mutted">MS</button>
+							<button class="btn btn-mutted">M+;</button>
+							<button class="btn btn-mutted">M-</button>
+						</div>
+						<div class="row">
+							<button class="btn">(</button>
+							<button class="btn">)</button>
+							<button class="btn btn-mutted" disabled>B</button>
+							<button class="btn">&larr;</button>
+							<button class="btn">CE</button>
+							<button class="btn">C</button>
+							<button class="btn">&plusmn;</button>
+							<button class="btn btn-mutted" disabled>&radic;</button>
+						</div>
+						<div class="row">
+							<button class="btn">RoL</button>
+							<button class="btn">RoR</button>
+							<button class="btn btn-mutted" disabled>C</button>
+							<button class="btn num">7</button>
+							<button class="btn num">8</button>
+							<button class="btn num">9</button>
+							<button class="btn">/</button>
+							<button class="btn btn-mutted" disabled>%</button>
+						</div>
+						<div class="row">
+							<button class="btn">Or</button>
+							<button class="btn">Xor</button>
+							<button class="btn btn-mutted" disabled>D</button>
+							<button class="btn num">4</button>
+							<button class="btn num">5</button>
+							<button class="btn num">6</button>
+							<button class="btn">*</button>
+							<button class="btn btn-mutted" disabled>1/x</button>
+						</div>
+						<div class="row">
+							<button class="btn">Lsh</button>
+							<button class="btn">Rsh</button>
+							<button class="btn btn-mutted" disabled>E</button>
+							<button class="btn num">1</button>
+							<button class="btn num">2</button>
+							<button class="btn num">3</button>
+							<button class="btn">-</button>
+						</div>
+						<div class="row">
+							<button class="btn">Not</button>
+							<button class="btn">And</button>
+							<button class="btn btn-mutted" disabled>F</button>
+							<button class="btn btn-zero num">0</button>
+							<button class="btn btn-mutted" disabled>.</button>
+							<button class="btn">+</button>
+						</div>
+
+						<button class="btn btn-result"><span id="resultButton">=</span></button>
+					</div>
+				</form>
+			</article>
+		</section>
+	</div>
+</body>
+</html>

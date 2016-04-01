@@ -1,0 +1,80 @@
+#wrapper{
+	font-family: Tahoma, sans-serif;
+	width: 720px;
+}
+header h2{
+	color: darkblue;
+}
+#register{
+	background-color: lightgrey;
+	float: left;
+}
+#register h4{
+	color: darkgrey;
+	text-indent: 20px;
+}
+#register h4 span{
+	color: darkblue;
+}
+#register form{
+	width: 310px;
+	margin-left: 20px;
+}
+#register input{
+	width: 95%;
+	height: 25px;
+	text-indent: 5px;
+	margin-bottom: 10px;
+}
+#register button{
+	background-color: white;
+	border-color: darkblue;
+	color: darkblue;
+	float: right;
+	width: 120px;
+	height: 30px;
+	margin-right: 10px;
+}
+#login{
+	float: left;
+	background-color: darkblue;
+	height: 255px;
+}
+#login header h4{
+	color: white;
+	margin-left: 20px;
+}
+#login form{
+	width: 300px;
+	margin-left: 20px;
+}
+#login input{
+	width: 95%;
+	height: 25px;
+	text-indent: 5px;
+	margin-bottom: 10px;
+}
+#login #remember{
+	float: left;
+	width: 20px;
+}
+#login label{
+	color: white;
+}
+#login button{
+	background-color: darkblue;
+	border-color: orange;
+	color: white;
+	float: right;
+	width: 120px;
+	height: 30px;
+	margin-right: 10px;
+}
+#login a{
+	color: white;
+	float: right;
+	display: block;
+	text-align: right;
+	width: 100%;
+	margin-right: 15px;
+}
