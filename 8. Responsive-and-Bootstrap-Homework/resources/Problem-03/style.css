@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper{
+	width: 100%;
+}
+
+ #wrapper header{
+ 	background-color: green;
+ 	width: 95%;
+ 	margin: 0 auto; 	
+ }
+
+ 	#wrapper header ul li{
+ 		left: 12%;
+ 	}
+
+ 		#wrapper header ul li a{
+ 			color: #000;
+ 		}
+
+ 			#wrapper header ul .active > a{
+ 				background-color: lightgreen; 				
+ 			}
+
+ #wrapper section .jumbotron{
+ 	width: 60%;
+ 	margin-left: 200px;
+ 	margin-top: 20px;
+ 	border-radius: 10px;
+ }
+
+ #wrapper aside .list-group{
+ 	width: 19%;
+ 	position: absolute;
+ 	top: 10%;
+ 	left: 78%;
+ }
+
+ 	#wrapper aside .list-group > .active{
+ 		background-color: lightgreen;
+ 	}
+
+ #wrapper main{
+ 	margin-left: 158px;
+ }
+
+	 #wrapper main .jumbotron{
+	 	width: 20%;
+	 	float: left;
+	 	background-color: white;
+	 	margin-left: 50px;	
+	 }
+
+	 	#wrapper main .jumbotron p > a{
+			background-color: white;
+			color: black;
+			border-color: lightgrey;
+	 	}
+
+#wrapper footer{
+	position: absolute;
+	right: 71%;
+	top: 130%;
+}
